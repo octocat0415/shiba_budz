@@ -30,10 +30,10 @@ const LinkeinDiv = styled.div`
 
 export default function Team() {
   return (
-    <div className="my-4">
+    <div className="my-4" id="team">
       <YelloTitle>Meet the team</YelloTitle>
       <div className="flex justify-center flex-wrap mt-4">
-        <div className="w-1/4 mx-4">
+        <div className="lg:w-1/4 sm:w-full mx-4">
           <div className="flex justify-center">
             <img src="/assets/images/t-1.png" className="z-10" />
           </div>
@@ -46,7 +46,7 @@ export default function Team() {
           </ShadowDiv>
         </div>
 
-        <div className="w-1/4 mx-4">
+        <div className="lg:w-1/4 sm:w-full mx-4">
           <div className="flex justify-center">
             <img src="/assets/images/t-2.png" className="z-10" />
           </div>
@@ -59,7 +59,7 @@ export default function Team() {
           </ShadowDiv>
         </div>
 
-        <div className="w-1/4 mx-4">
+        <div className="lg:w-1/4 sm:w-full mx-4">
           <div className="flex justify-center">
             <img src="/assets/images/t-3.png" className="z-10" />
           </div>
@@ -72,7 +72,7 @@ export default function Team() {
           </ShadowDiv>
         </div>
         
-        <div className="w-1/4 mx-4">
+        <div className="lg:w-1/4 sm:w-full mx-4">
           <div className="flex justify-center">
             <img src="/assets/images/t-4.png" className="z-10" />
           </div>
@@ -85,7 +85,7 @@ export default function Team() {
           </ShadowDiv>
         </div>
 
-        <div className="w-1/4 mx-4">
+        <div className="lg:w-1/4 sm:w-full mx-4">
           <div className="flex justify-center">
             <img src="/assets/images/t-1.png" className="z-10" />
           </div>

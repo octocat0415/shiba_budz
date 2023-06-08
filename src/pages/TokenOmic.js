@@ -22,7 +22,7 @@ export const options = {
 
 export default function TokenOmic () {
   return(
-    <div className="my-5">
+    <div className="my-5" id="tokenomic">
       <YelloTitle>SHIBA BUDZ ($BUDZ) TOKENOMICS</YelloTitle>
       <Chart
         chartType="PieChart"

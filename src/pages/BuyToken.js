@@ -24,19 +24,19 @@ const JoinBtn = styled.button`
 
 export default function BuyToken() {
   return (
-    <div className='mt-5'>
+    <div className='mt-5' id='how-to-buy'>
       <YelloTitle>SHIBA BUDZ PRESALE LIVE NOW </YelloTitle>
       <div className='flex justify-around items-center'>
-        <img src='/assets/images/b-1.png' style={{width: "227px", height: "118px"}} alt='' />
-        <img src='/assets/images/b-2.png' style={{width: "282px", height: "40px"}} alt='' />
-        <img src='/assets/images/b-3.png' style={{width: "54px", height: "54px"}} alt='' />
-        <img src='/assets/images/b-4.png' style={{width: "74px", height: "74px"}} alt='' />
-        <img src='/assets/images/b-5.png' style={{width: "87px", height: "86px"}} alt='' />
-        <img src='/assets/images/b-6.png' style={{width: "262px", height: "73px"}} alt='' />
+        <img src='/assets/images/b-1.png' alt='' />
+        <img src='/assets/images/b-2.png' alt='' />
+        <img src='/assets/images/b-3.png' alt='' />
+        <img src='/assets/images/b-4.png' alt='' />
+        <img src='/assets/images/b-5.png' alt='' />
+        <img src='/assets/images/b-6.png' alt='' />
       </div>
       <div className='flex justify-center'>
-        <div className='w-3/5 flex items-center flex-col'>
-          <div className='my-4' style={{fontSize:"40px"}}>
+        <div className='lg:w-3/5 sm:w-10/12 flex items-center flex-col'>
+          <div className='my-4 sm:text-xl'>
             Welcome! meme-lovers and humor-hunters, to Lorem Ipsum – the meme factory where wit meets AI! Forget about mundane meme-making; our snazzy AI technology is here to turbocharge your sense of humor and help you craft gut-busting, ROFL-worthy memes in a snap.
           </div>
           <div className='flex justify-around w-2/6 my-4'>
