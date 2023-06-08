@@ -90,7 +90,7 @@ const SolidBuyBtn = styled.button`
 
 export default function Hero() {
   return (
-    <BackgroundDiv>
+    <BackgroundDiv id='#'>
       <div className='absolute brightness-75 w-full h-full bg-black opacity-30'></div>
       <div className='absolute' style={{top: "15%", left: "30%"}}>
         <img src='/assets/images/rocket-dog.png' style={{width: 172, height: 170}} alt='' />

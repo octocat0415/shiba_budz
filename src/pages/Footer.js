@@ -93,14 +93,14 @@ export default function Footer () {
               <h3 className="text-white font-semibold">FAQs</h3>
               <h3 className="text-white font-semibold">Sneak peeks</h3>
             </div>
-            <div className="flex flex-col w-1/6">
+            <div className="flex flex-col w-1/6 items-center">
               <h3 className="text-white font-semibold">Socials</h3>
-              <div className="flex flex-col">
-                <div className="flex justify-center">
+              <div className="flex flex-col w-9/12">
+                <div className="flex justify-around">
                   <img src="/assets/images/twitter-color 1.png" alt="" />
                   <img src="/assets/images/linkedIn-color 1.png" alt="" />
                 </div>
-                <div className="flex justify-center">
+                <div className="flex justify-around mt-2">
                   <img src="/assets/images/facebook-color 1.png" alt="" />
                   <img src="/assets/images/instagram-color 1.png" alt="" />
                 </div>

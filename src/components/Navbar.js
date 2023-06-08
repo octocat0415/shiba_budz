@@ -4,12 +4,12 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import styled from 'styled-components';
 
 const navigation = [
-  { name: 'How to Buy', href: '#' },
-  { name: 'Rolling Paper', href: '#' },
-  { name: 'Roadmap', href: '#' },
-  { name: 'Tokenomics', href: '#' },
-  { name: 'Audits', href: '#' },
-  { name: 'Giveaways', href: '#' },
+  { name: 'How to Buy', href: '#how-to-buy' },
+  { name: 'Rolling Paper', href: '#exchange' },
+  { name: 'Roadmap', href: '#roadmap' },
+  { name: 'Tokenomics', href: '#tokenomic' },
+  { name: 'Audits', href: '#video' },
+  { name: 'Giveaways', href: '#team' },
 ]
 
 const LogoTitle = styled.h2`
@@ -68,9 +68,9 @@ export default function NavBar() {
               <Bars3Icon className="h-6 w-6" aria-hidden="true" />
             </button>
           </div>
-          <div className="hidden lg:flex xl:gap-x-12 md:gap-x-2 items-center">
-            {navigation.map((item) => (
-              <NavText>
+          <div className="hidden lg:flex xl:gap-x-6 xxl:gap-x-12 md:gap-x-2 items-center">
+            {navigation.map((item, key) => (
+              <NavText key={key}>
                 <a key={item.name} href={item.href} className="font-semibold leading-6 text-white no-underline">
                   {item.name}
                 </a>

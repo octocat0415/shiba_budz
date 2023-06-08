@@ -7,7 +7,7 @@ const YelloTitle = styled.h1`
 
 export default function WatchVideo() {
   return (
-    <div className="my-4">
+    <div className="my-4" id="video">
       <YelloTitle>WATCH VIDEO ON SHIBA BUDZ ECOSYSTEM</YelloTitle>
       <div className="flex justify-center">
         <img src="/assets/images/tv.png" alt="" width="40%" />
